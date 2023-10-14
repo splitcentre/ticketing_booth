@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginEnd="14dp"
+                android:text="Theater Location"/>
+
+            <Spinner
+                android:textColorHighlight="@color/black"
+                android:textColor="@color/black"
+                android:id="@+id/theaterlist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="14dp"
+                android:background="#FEA900" />
+
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginEnd="14dp"
+                android:text="Seat"/>
+
+            <Spinner
+                android:textColorHighlight="@color/black"
+                android:textColor="@color/black"
+                android:background="#FEA900"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="14dp"
+                android:layout_marginStart="14dp"
+                android:id="@+id/seat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textColorHighlight="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginEnd="14dp"
+                android:text="Date"/>
+
+            <DatePicker
+                android:textColorHighlight="@color/black"
+                android:textColor="@color/black"
+                android:id="@+id/date"
+                android:layout_width="295dp"
+                android:layout_height="184dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="13dp"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner" />
+            <TextView
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:layout_marginEnd="14dp"
+                android:text="Time"/>
+
+            <TimePicker
+                android:textColor="@color/black"
+                android:id="@+id/time"
+                android:layout_width="218dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:timePickerMode="spinner" />
+
+            <com.google.android.material.button.MaterialButton
+                android:textColor="@color/black"
+                android:id="@+id/print"
+                android:layout_width="364dp"
+                android:backgroundTint="#FEA900"
+                android:layout_gravity="center"
+                android:layout_height="49dp"
+                android:layout_marginTop="13dp"
+                android:text="Cari Ticket" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

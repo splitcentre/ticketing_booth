@@ -1,4 +1,50 @@
 <resources>
     <string name="app_name">ticketing_booth</string>
     <string name="space" />
+    <array name="title">
+        <item>Drive(2011)</item>
+        <item>Hot Fuzz(2007)</item>
+        <item>Prisoner(2013)</item>
+        <item>Shin Godzilla(2016)</item>
+    </array>
+    <array name="cast">
+        <item>Ryan Gosling,Carey Mulligan,Bryan Cranston,Albert Brooks,Oscar Isaac,Christina
+            Hendricks,Ron Perlman,Kaden Leos.
+        </item>
+        <item>Simon Pegg,Martin Freeman,Bill Nighy,Robert Popper,Joe Cornish,Chris Waitt,Eric Mason
+            ,Billie Whitelaw.
+        </item>
+        <item>Hugh Jackman,Jake Gyllenhaal,Viola Davis,Maria Bello,Terrence Howard,Melissa Leo,Paul
+            Dano,Dylan Minnette.
+        </item>
+        <item>Hiroki Hasegawa,Yutaka Takenouchi,Satomi Ishihara,Ren Ôsugi,Akira Emoto,Kengo Kora
+        </item>
+    </array>
+    <array name="description">
+        <item>A stuntman and getaway driver falls in love with Irene who is married to a criminal.
+            In a bid to protect her from her husband and some gangsters, he decides to cross over to
+            the other side of the law.
+        </item>
+        <item>An honest police officer is transferred to the countryside after his superiors object
+            to his sincerity. However, he decides to prove his mettle by solving a series of murders
+            in the town.
+        </item>
+        <item>When the police take time to find Keller Dover's daughter and her friend, he decides
+            to go on a search himself. His desperation leads him closer to finding the truth and
+            also jeopardises his own life.
+        </item>
+        <item>Japan is plunged into chaos when an enormous monster emerges from Tokyo Bay and
+            terrorises the city, leaving a path of destruction and casualties.
+        </item>
+    </array>
+    <array name="theater">
+        <item>Belgrade Cinema</item>
+        <item>Ulanbatar Cinema</item>
+        <item>Ngawi Cinema</item>
+    </array>
+    <array name="seatlist">
+        <item>Cinema</item>
+        <item>Imax</item>
+        <item>Premiere</item>
+    </array>
 </resources>

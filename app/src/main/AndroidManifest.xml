@@ -13,6 +13,27 @@
         android:theme="@style/Base.Theme.Ticketing_booth"
         tools:targetApi="31">
         <activity
+            android:name=".detail"
+            android:exported="false" />
+        <activity
+            android:name=".OrderDetail"
+            android:exported="false" />
+        <activity
+            android:name=".Payment"
+            android:exported="false" />
+        <activity
+            android:name=".prisonerdetail"
+            android:exported="false" />
+        <activity
+            android:name=".shindetail"
+            android:exported="false" />
+        <activity
+            android:name=".drivedetail"
+            android:exported="false" />
+        <activity
+            android:name=".hzdetail"
+            android:exported="false" />
+        <activity
             android:name=".seating"
             android:exported="false" />
         <activity
