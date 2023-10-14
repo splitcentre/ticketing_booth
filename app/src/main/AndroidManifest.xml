@@ -10,8 +10,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Ticketing_booth"
+        android:theme="@style/Base.Theme.Ticketing_booth"
         tools:targetApi="31">
+        <activity
+            android:name=".seating"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />

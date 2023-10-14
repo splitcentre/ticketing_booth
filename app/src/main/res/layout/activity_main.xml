@@ -13,19 +13,20 @@
         android:layout_height="72dp" />
 
     <RelativeLayout
-        android:layout_width="412dp"
-        android:layout_height="100dp"
-        android:background="@drawable/Rectangle"
+        android:id="@+id/relativeLayout"
+        android:layout_width="413dp"
+        android:layout_height="80dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
         <TextView
             android:id="@+id/welcome"
-            android:layout_width="72dp"
+            android:layout_width="104dp"
             android:layout_height="wrap_content"
             android:text="Welcome,"
             android:textColor="@color/black"
+            android:textSize="20dp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="6dp"
             tools:layout_editor_absoluteY="16dp" />
@@ -41,5 +42,80 @@
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="46dp" />
     </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/imgbox"
+        android:layout_width="412dp"
+        android:layout_height="580dp"
+        android:layout_marginTop="80dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/txtshow"
+            android:layout_width="730dp"
+            android:textStyle="italic"
+            android:layout_height="wrap_content"
+            android:text="NOW SHOWING"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="28dp"/>
+
+        <ImageView
+            android:layout_width="177dp"
+            android:layout_height="230dp"
+            android:layout_below="@id/txtshow"
+            android:src="@drawable/drive"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:id="@+id/drive"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/prisoner"
+            android:layout_width="177dp"
+            android:layout_height="230dp"
+            android:src="@drawable/prisoner"
+            android:layout_toEndOf="@id/drive"
+            android:layout_below="@id/txtshow"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="168dp"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/shin"
+            android:layout_width="177dp"
+            android:layout_height="230dp"
+            android:src="@drawable/shin"
+            android:layout_below="@id/drive"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="168dp"
+            android:clickable="true"/>
+
+        <ImageView
+            android:id="@+id/hot_fuzz"
+            android:layout_width="177dp"
+            android:layout_height="230dp"
+            android:src="@drawable/hot_fuzz"
+            android:layout_toEndOf="@id/shin"
+            android:layout_below="@id/drive"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="20dp"
+            tools:layout_editor_absoluteX="200dp"
+            tools:layout_editor_absoluteY="168dp"
+            android:clickable="true"/>
+    </RelativeLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
