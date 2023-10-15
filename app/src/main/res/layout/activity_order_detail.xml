@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:background="@drawable/paint_2"
-    android:backgroundTint="@color/third"
-    tools:context=".Detail_Pemesanan">
+    tools:context=".OrderDetail">
 
     <TextView
         android:layout_width="wrap_content"
@@ -15,7 +14,6 @@
         android:textAlignment="center"
         android:text="Order Summary"
         android:textColor="@color/white"
-        android:fontFamily="@font/poppins_regular"
         android:textStyle="bold"
         android:background="@drawable/paint_1"
         app:layout_constraintTop_toTopOf="parent"
@@ -89,7 +87,6 @@
             app:layout_constraintTop_toTopOf="parent"
             android:id="@+id/title_movie"
             android:layout_marginVertical="12dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"
             android:textSize="16sp"/>
         <TextView
@@ -100,7 +97,6 @@
             app:layout_constraintTop_toBottomOf="@id/title_movie"
             android:id="@+id/tv_Bioskop"
             android:layout_margin="12dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"
             android:textSize="14sp"/>
 
@@ -112,7 +108,6 @@
             app:layout_constraintTop_toBottomOf="@id/tv_Bioskop"
             android:id="@+id/date_movie"
             android:layout_margin="12dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"
             android:textSize="12sp"/>
 
@@ -125,7 +120,6 @@
             app:layout_constraintTop_toBottomOf="@id/guidlineHorizontal"
             android:id="@+id/tv_order_number"
             android:layout_margin="12dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"
             android:textSize="12sp"/>
         <TextView
@@ -137,7 +131,6 @@
             android:id="@+id/order_number"
             android:layout_marginTop="8dp"
             android:layout_marginHorizontal="12dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"
             android:textSize="14sp"/>
 
@@ -150,7 +143,6 @@
             app:layout_constraintTop_toBottomOf="@id/order_number"
             android:id="@+id/tv_seat"
             android:layout_margin="12dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"
             android:textSize="12sp"/>
         <TextView
@@ -162,7 +154,6 @@
             android:id="@+id/seat"
             android:layout_marginHorizontal="12dp"
             android:layout_marginTop="8dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"
             android:textSize="14sp"/>
 
@@ -175,7 +166,6 @@
             app:layout_constraintTop_toBottomOf="@id/seat"
             android:id="@+id/tv_payment_method"
             android:layout_margin="12dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"
             android:textSize="12sp"/>
         <TextView
@@ -187,7 +177,6 @@
             android:id="@+id/payment_method"
             android:layout_marginHorizontal="12dp"
             android:layout_marginTop="8dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"
             android:textSize="14sp"/>
 
@@ -200,7 +189,6 @@
             app:layout_constraintTop_toBottomOf="@id/payment_method"
             android:id="@+id/tv_payment"
             android:layout_margin="12dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"
             android:textSize="12sp"/>
         <TextView
@@ -212,7 +200,6 @@
             android:id="@+id/payment"
             android:layout_marginHorizontal="12dp"
             android:layout_marginTop="8dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"
             android:textSize="14sp"/>
 
@@ -225,7 +212,6 @@
             app:layout_constraintTop_toBottomOf="@id/payment"
             android:id="@+id/tv_number_of_seat"
             android:layout_margin="12dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"
             android:textSize="12sp"/>
         <TextView
@@ -237,13 +223,12 @@
             android:id="@+id/number_of_seat"
             android:layout_marginHorizontal="12dp"
             android:layout_marginTop="8dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"
             android:textSize="14sp"/>
         <View
             android:layout_width="match_parent"
             android:layout_height="2dp"
-            android:background="@color/gray"
+            android:background="@color/black"
             android:id="@+id/garis"
             app:layout_constraintTop_toBottomOf="@id/number_of_seat"
             app:layout_constraintStart_toStartOf="parent"/>
@@ -255,7 +240,6 @@
             app:layout_constraintTop_toBottomOf="@id/garis"
             android:layout_marginTop="8dp"
             android:textSize="16dp"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"/>
         <TextView
             android:layout_width="wrap_content"
@@ -266,7 +250,6 @@
             android:layout_marginTop="8dp"
             android:textSize="16dp"
             android:id="@+id/total_payment"
-            android:fontFamily="@font/poppins_regular"
             android:textStyle="bold"/>
 
 
